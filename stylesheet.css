@@ -1,45 +1,28 @@
-<!DOCTYPE html>
-<html>
+li {
+  list-style: none;
+}
 
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="stylesheet.CSS">
-  <title>自由なサイトを</title>
-</head>
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
 
-<body>
-  <header>
-    <div class="container">
-      <div class="header-logo">
-        <img src="ランタンアイコン1.jpeg">
-      </div>
-      <div class="header-list">
-        <ul>
-          <li>キャンプ</li>
-          <li>英語</li>
-          <li>プログラミング</li>
-          <li>YouTube</li>
-        </ul>
-      </div>
-    </div>
-  </header>
+header {
+  height: 65px;
+  background-color: #rgba(255, 0, 0, 0.5);
+}
 
-  <div class="top-wrapper">
-    <div class="container">
-      <div class="">
-      </div>
-    </div>
-  </div>
-  <div class="">
+.header-logo {
+  float: left;
+}
 
-  </div>
-  <div class="">
+.header-logo img {
+  width: 124px;
+  padding: 20px 0;
+}
 
-  </div>
-
-  <footer>
-
-  </footer>
-</body>
-
-</html>
+.header-list li {
+  font-size: 15px;
+  float: left;
+  padding: 33px 20px;
+}
